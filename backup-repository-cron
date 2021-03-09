@@ -1,0 +1,11 @@
+#----------------------------------
+# Tergum - Backup your dotfiles
+#----------------------------------
+# 
+# Edit this file if needed ;)
+# Default value is every six hour
+#
+#----------------------------------
+
+# run the drupal cron process every hour of every day
+0 */6 * * * /app_run/backup.sh
