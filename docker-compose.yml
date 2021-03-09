@@ -1,0 +1,10 @@
+version: "3.9"
+    
+services:
+  tergum:
+    image: tergum
+    volumes:
+      - ../backup:/app
+    environment:
+      GIT_REPOSITORY_URL: git@github.com:jess-sys/dotfiles-ex.git
+    restart: always
