@@ -4,7 +4,7 @@ echo "Pulling new changes"
 cd /app_run/repository
 git pull
 
-cp /app/* /app_run/repository
+cp /app/* /app_run/repository -R
 
 echo "Backing up..."
 
