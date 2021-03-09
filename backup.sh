@@ -1,8 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+cd /app_run/repository
+
+git pull
 
 cp /app/* /app_run/repository
 
-cd /app_run/repository
+echo "Backing up..."
 
 git add .
 git commit -m "Tergum - Automatic backup"
