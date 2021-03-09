@@ -1,6 +1,8 @@
 # Tergum
 Tergum - An elegant way to backup dot files using git and Docker
 
+It copies everything in the /app folder to a git repository every 6 hours. See below for details
+
 ## How it works ?
 
 * Mount the folders you want to backup to the `/app` folder inside the container.
